@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position:relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #ffff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin:50px;
+}
+
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imgx{
+    position:relative;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow:hidden ;
+    margin-left: 65px;
+
+}
+.profileText .imgx img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.profileText h2{
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.profileText h3{
+    color: #fff;
+    padding-left: 35px;
+}
+
+.container .left{
+    position: relative;
+    background:#fff;
+    padding:40px;
+}
+.container .right_side{
+    position: relative;
+    background: #003147;
+    padding:40px;
+}
+
+.strengths .title {
+    color:#fff;
+}
+
+
+.strengths .title .str{
+    font-size: 13px;
+    font-weight: 0;
+    color:white;
+}
+p{
+    color:#fff;
+}
+.Achieve .Hack  .str{
+    font-size: 13px;
+    font-weight: 0;
+    color:white;
+}
+
+.Achieve h2{
+    color: aliceblue;
+}
+.course h2{
+    color: aliceblue;
+}
+
+.course .Languages .percent{
+   
+    position: relative;
+    width:100%;
+    height: 6px;
+    background: blue;
+    display:block;
+    margin-top: 5px;
+}
+
+.course .Languages .percent div{
+    position: absolute ;
+    top:0;
+    left:0;
+    height:100%;
+    background:#ffff;
+}
+
+.title1{
+    padding-left: 90px;
+    margin-top: 30px;
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icon{
+    color:black;
+    padding-left: 97px;
+    font-size: 13px;
+}
+.icon1{
+    color:black;
+    padding-left: 95px;
+    font-size: 10px;
+}
+
+.text{
+    color:blue;
+    padding-left: 97px;
+    font-size: 15px;
+    padding-top: 0px;
+   
+}
+
+ul{
+    font-size: 15px;
+    padding-left: 140px;
+}
+
+hr{
+    width:95%;
+}
+
+.content{
+    color:black;
+    font-size: 13px;
+    padding-left: 97px;;
+}
